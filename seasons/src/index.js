@@ -6,7 +6,7 @@ const App = () => {
         (position) => console.log(position),
         (err) => console.log(err)
     );
-    return <div>Heisann!</div>;
+    return <div>Lengdegrad: </div>;
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
